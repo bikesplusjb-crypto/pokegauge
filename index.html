@@ -90,6 +90,11 @@ body{font-family:var(--f-screen);background:var(--bg);color:var(--text);line-hei
 .ctabtn{display:inline-block;font-family:var(--f-pixel);font-size:10px;padding:14px 20px;border-radius:4px;text-decoration:none;letter-spacing:1px;}
 .cta.card .ctabtn{background:var(--blue);color:#fff;box-shadow:3px 3px 0 #0c1830;}
 .cta.sb .ctabtn{background:var(--red);color:#fff;box-shadow:3px 3px 0 var(--red-deep);}
+.scanbar{display:flex;align-items:center;gap:14px;background:#11203a;border:3px solid var(--blue);border-radius:6px;padding:16px 18px;margin:16px 0;box-shadow:5px 5px 0 #0c1830;text-decoration:none;}
+.scanbar .sbi{font-size:26px;flex-shrink:0;}
+.scanbar .sbt{flex:1;font-family:var(--f-screen);font-size:20px;color:var(--text);line-height:1.2;}
+.scanbar .sbt b{color:#5aa9ff;}
+.scanbar .sba{font-family:var(--f-pixel);font-size:12px;color:#5aa9ff;flex-shrink:0;}
 .tipbar{text-align:center;padding:8px 0;}
 .tipbar a{display:inline-block;font-family:var(--f-screen);font-size:20px;color:var(--text-2);text-decoration:none;border:2px solid var(--shell-line);padding:11px 20px;border-radius:5px;}
 .tipbar a:hover{color:var(--yellow);border-color:var(--yellow);}
@@ -136,6 +141,12 @@ footer .disc2{margin-top:14px;font-size:16px;font-style:italic;color:var(--shell
       <div class="chip b"><b>COLLECTING</b><span>Buy, hold, grade, resell. Many here never play a single match.</span></div>
     </div>
   </div>
+
+  <a class="scanbar" href="https://www.cardgauge.com" target="_blank" rel="noopener">
+    <span class="sbi">&#128247;</span>
+    <span class="sbt">Already have cards? <b>Scan them on CardGauge</b> to see what they're worth.</span>
+    <span class="sba">&#9654;</span>
+  </a>
 
   <div class="quiz" id="quiz">
     <h2>WHAT KIND OF<br>POK&Eacute;MON PERSON<br>ARE YOU?</h2>
